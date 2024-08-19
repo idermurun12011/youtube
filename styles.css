@@ -1,0 +1,143 @@
+.top{
+    height: 50px;
+    flex: 1;
+    justify-content: center  ;
+}
+.zuun{
+    flex: 1;
+}
+.baruun{
+    background-color: white;
+    flex: 8;
+}
+.container{
+    display: flex;
+    height: 95vh;
+}
+.topcontainer{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   
+ /* text-align: center; */
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+}
+.filter{
+    /* background-color: gray; */
+    display: flex;
+   justify-content: center;
+   height: 25px;
+   justify-content: space-around;
+}
+.filtebutton:hover{
+background-color: gainsboro ;
+
+}
+.filtebutton{
+    border-radius: 15%;
+    background-color: whitesmoke;
+}
+body{
+    margin: 0;
+}
+.video{
+    height: 280px;
+    width: 350px;
+}
+.videocontainer{
+    display: flex;  
+    flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 55px;
+/* margin-right: 90px; */
+}
+.mp3{
+    width: 400px;
+  margin: 23px;
+  border-radius: 10%;
+}
+.desc{
+    /* background-color: yellow; */
+    /* margin: 10px; */
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    width: 250px;       
+    margin-left: 50px;
+}
+img{
+    height: 40px;
+    border-radius: 30px;
+ margin: 5px;
+}
+.description{
+    /* background-color: gray; */
+    width: 200px;
+    display: flex;
+margin-right: 20px;
+margin: 8px;
+}
+@media screen and (max-width: 600px) { 
+
+ }
+ @media screen and (min-width: 600px)
+and (max-width: 600px) {
+
+}
+.logos{
+    height: 15px;
+}
+.logos2{
+    height: 25px;
+}
+.logos2:hover{
+    background-color: gainsboro;
+}
+.logos3{
+    height: 30px;       
+    width: 100px;
+}
+.you{
+    margin: 20px;
+}
+.logos3container:hover{
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+.logos3container{
+    display: flex;
+   align-items: center;
+}
+.subscontainer{
+    display: flex;
+    align-items: center;
+ margin-left: 30px;
+ width: 200px;
+}
+.subscontainer:hover{
+background-color: gainsboro;
+border-radius: 15px;
+}
+.menu:hover{
+    background-color: gainsboro;
+}
+
+.search{
+    background-color: white  ;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.searchcontainer{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
